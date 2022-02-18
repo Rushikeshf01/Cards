@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <h1 style="font-size:50px;font-family:cursive;text-align:center" >Fill up Form</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        <h3>Name: <input type="text" name="name"></h3>
+        <br>
+        <h3>dob: <input type="date" name="dob" ></h3>
+        <br>
+        <h3>age: <input type="number" name="age"></h3>
+        <br>
+        <h3>email: <input type="email" name="email"></h3>
+        <br>
+        <h3>Mobile No: <input type="number" name="M_No" ></h3>
+        <br>
+        <h3>Enrollment No: <input type="number" name="E_No" ></h3>
+        <br>
+        <h3><input type="submit" value="submit"></h3>  
+    </form>
+</body>
+</html>
